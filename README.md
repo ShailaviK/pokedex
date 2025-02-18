@@ -1,3 +1,78 @@
-# Pokédex
- The Pokedex App is a dynamic web application built with React that allows users to explore detailed information about various Pokémon. Leveraging the PokeAPI, this app provides a modern and interactive interface for Pokémon enthusiasts to browse, learn, and interact with their favorite creatures.
-<img width="991" alt="Screenshot 2025-02-18 at 10 49 15 AM" src="https://github.com/user-attachments/assets/35eb72bc-3af5-4db4-8c14-fada8b99c51e" />
+# Pokédex Project
+
+## 🌟 Overview
+The **Pokédex Project** is a web application that allows users to search and explore detailed information about Pokémon. This project is built using modern web technologies, ensuring a responsive and interactive user experience. 
+
+## ✨ Features
+- 🔍 **Search Pokémon** by name or ID
+- 📋 **View Pokémon Details** including type, abilities, stats, and evolutions
+- 🎨 **Responsive Design** for a seamless experience across devices
+- ⚡ **Fast Performance** using optimized API calls
+- 🔄 **Offline Support** with caching (optional feature)
+
+## 🛠️ Technologies Used
+- **Frontend**: React.js 
+- **Styling**: Tailwind CSS / Bootstrap / Custom CSS
+- **State Management**: Context API 
+- **API**: PokéAPI (https://pokeapi.co/)
+- **Build Tool**: Vite 
+- **Deployment**: Vercel / Netlify / GitHub Pages
+
+## 🚀 Getting Started
+
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (latest LTS version recommended)
+- [Git](https://git-scm.com/)
+
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/ShailaviK/pokedex.git
+   cd pokedex
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+4. Open the application in your browser at `http://localhost:3000`
+
+## 📂 Project Structure
+```
+├── public/             # Static assets
+├── src/                # Source files
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Main pages
+│   ├── services/       # API calls & data fetching
+│   ├── hooks/          # Custom React hooks (if any)
+│   ├── styles/         # Global styles
+│   ├── App.js          # Main application component
+│   ├── index.js        # Entry point
+├── package.json        # Project dependencies
+├── README.md           # Project documentation
+```
+
+## 🔗 API Integration
+This project fetches data from the **PokéAPI** to retrieve Pokémon details. Example API call:
+
+## 📸 Screenshots
+![Screenshot 2025-02-18 at 10 55 50 AM](https://github.com/user-attachments/assets/ebfc07dc-4e04-42ad-acf0-9dccb8fb2de5)
+<img width="881" alt="Screenshot 2025-02-18 at 10 56 44 AM" src="https://github.com/user-attachments/assets/3a53be6e-b563-42b4-8f26-245e08ea3737" />
+
+## 🌍 Live Demo
+Check out the live version of the Pokédex here: [Live Demo](https://shailavi-s-pokedexx.netlify.app/)
+
+## 🛠 Future Enhancements
+- [ ] Add **sorting & filtering** options
+- [ ] Implement **favorites/bookmarking** feature
+- [ ] Improve **UI/UX** with animations
+- [ ] Add **GraphQL support** (optional)
+
+## 📞 Contact
+For any questions or feedback, reach out to me on:
+- GitHub: [@ShailaviK](https://github.com/ShailaviK)
+- Email: shailavikargaonkar.com
