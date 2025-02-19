@@ -16,7 +16,7 @@ The **Pokédex Project** is a web application that allows users to search and ex
 - **State Management**: Context API 
 - **API**: PokéAPI (https://pokeapi.co/)
 - **Build Tool**: Vite 
-- **Deployment**: Vercel / Netlify / GitHub Pages
+- **Deployment**:  Netlify
 
 ## 🚀 Getting Started
 
