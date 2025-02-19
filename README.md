@@ -39,7 +39,6 @@ Ensure you have the following installed:
    ```sh
    npm run dev
    ```
-4. Open the application in your browser at `http://localhost:3000`
 
 ## 🔗 API Integration
 This project fetches data from the **PokéAPI** to retrieve Pokémon details. Example API call:
