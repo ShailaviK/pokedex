@@ -41,21 +41,6 @@ Ensure you have the following installed:
    ```
 4. Open the application in your browser at `http://localhost:3000`
 
-## 📂 Project Structure
-```
-├── public/             # Static assets
-├── src/                # Source files
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # Main pages
-│   ├── services/       # API calls & data fetching
-│   ├── hooks/          # Custom React hooks (if any)
-│   ├── styles/         # Global styles
-│   ├── App.js          # Main application component
-│   ├── index.js        # Entry point
-├── package.json        # Project dependencies
-├── README.md           # Project documentation
-```
-
 ## 🔗 API Integration
 This project fetches data from the **PokéAPI** to retrieve Pokémon details. Example API call:
 
